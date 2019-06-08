@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitCompany": "",
+    "baseName": "CogServiceIntegration",
+    "packageName": "com.ranial.cip",
+    "packageFolder": "com/ranial/cip",
+    "serverPort": 9999,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "infinispan",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "ja",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZGZmYzE3NTc2NzFkYzhhNjJmODc1MDEwM2FkNGQ4MzY5ZTIxNGMyMjUxNGViNjZmYjIwNDNmYzUzNzg4Mjg5MDg5YTg0NTRhNmNjMWJhMTI4OWZmMzg4OTRhZTYxZjliOWJlMWRhYWY4ZTFmMDQ4NzZlZjE1OTYzNTYwN2FlNjE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "prbhadra",
+  "repository-name": "RANIALCIP"
+}
