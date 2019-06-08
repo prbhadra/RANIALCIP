@@ -1,0 +1,28 @@
+{
+    "name": "DomainRelationship",
+    "fields": [
+        {
+            "fieldName": "parentKeyEntityName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentKeyAttributeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "chieldAttributeName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190608163316",
+    "entityTableName": "domain_relationship",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "Rcip"
+}

@@ -1,0 +1,89 @@
+{
+    "name": "DomainAttributes",
+    "fields": [
+        {
+            "fieldName": "attributeName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "entityName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "attributeType",
+            "fieldType": "DATATYPE",
+            "fieldValues": "ASCII,BIGINT,BLOB,BOOLEAN,COUNTER,DECIMAL,DOUBLE,FLOAT,INET,INT,TEXT,TIMESTAMP,TIMEUUID,UUID,VARCHAR,VARINT,LIST,MAP,SET",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "attributeLength",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "attributeDescription",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "allowNull",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isPrimary",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isUnique",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isIndexed",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isForaignKey",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "foraignKeyEntityName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "foraignKeyAttributeName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190608163315",
+    "entityTableName": "domain_attributes",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "Rcip"
+}
