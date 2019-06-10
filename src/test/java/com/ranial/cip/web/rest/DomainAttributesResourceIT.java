@@ -2,6 +2,7 @@ package com.ranial.cip.web.rest;
 
 import com.ranial.cip.AbstractCassandraTest;
 import com.ranial.cip.CogServiceIntegrationApp;
+import com.ranial.cip.domain.DATATYPE;
 import com.ranial.cip.domain.DomainAttributes;
 import com.ranial.cip.repository.DomainAttributesRepository;
 import com.ranial.cip.service.DomainAttributesService;
@@ -39,6 +40,9 @@ public class DomainAttributesResourceIT extends AbstractCassandraTest {
 
     private static final String DEFAULT_ATTRIBUTE_NAME = "AAAAAAAAAA";
     private static final String UPDATED_ATTRIBUTE_NAME = "BBBBBBBBBB";
+
+    private static final DATATYPE DEFAULT_ATTRIBUTE_TYPE = DATATYPE.STRING;
+    private static final DATATYPE UPDATED_ATTRIBUTE_TYPE = DATATYPE.STRING;
 
     private static final String DEFAULT_ENTITY_NAME = "AAAAAAAAAA";
     private static final String UPDATED_ENTITY_NAME = "BBBBBBBBBB";

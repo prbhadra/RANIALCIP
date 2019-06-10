@@ -3,6 +3,7 @@ import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
+import com.ranial.cip.domain.DATATYPE;
 
 /**
  * A DTO for the {@link com.ranial.cip.domain.DomainAttributes} entity.
